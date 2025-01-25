@@ -79,9 +79,9 @@ contract BaseConduitTest is
         returns (address)
     {
         // 0 address is not valid mint or origin address
-        if (addr == address(0)) {
-            return address(1);
-        }
+        // if (addr == address(0)) {
+        //     return address(1);
+        // }
         if (addr == address(1)) {
             return address(0);
         }
